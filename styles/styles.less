@@ -1,0 +1,46 @@
+@navColor: rgb(133, 212, 202);
+
+.basicNav {
+    font-size: 13pt;
+    padding: 25px;
+    margin: 0px;
+    background-color: @navColor;
+}
+
+.bottomNav {
+    .basicNav();
+	clear: both;
+	text-align: center;
+	color: white;
+    ul > li{
+        display: inline;
+        a {
+            color: white;
+        }
+    }
+}
+
+.navbar {
+    .basicNav();
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.carousel-item{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
